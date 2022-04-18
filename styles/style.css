@@ -1,4 +1,6 @@
+@import url('geometrical_shapes.css');
 @import url('navbar.css');
+@import url('presentation.css');
 
 body {
   background-color: #FAFAFA;

@@ -1,0 +1,163 @@
+.purple-demi-circle {
+  background-color: #726CEE;
+  border: 1px solid #726CEE;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  height: 160px;
+  width: 320px;
+  position: absolute;
+  top: 130px;
+  left: 990px;
+}
+
+.white-demi-circle {
+  background-color: #FAFAFA;
+  border: 1px solid #FAFAFA;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  height: 80px;
+  width: 160px;
+  position: absolute;
+  top: 210px;
+  left: 1070px;
+}
+
+.blue-triangle {
+  height: 160px;
+  width: 160px;
+  margin-top: 30px;
+  border-top: 160px solid #4BB1DA;
+  border-left: 160px solid transparent;
+  position: absolute;
+  top: 420px;
+  left: 830px;
+}
+
+.transparent-pill {
+  width: 320px;
+  height: 160px;
+  border-radius: 80px;
+  background-color: transparent;
+  border: 2px solid #151515;
+  position: absolute;
+  top: 610px;
+  left: 990px;
+}
+
+.small-transparent-circle-1, .small-transparent-circle-2 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #151515;
+  border-radius: 50%;
+}
+
+.small-transparent-circle-1 {
+  position: absolute;
+  top: 170px;
+  left: 870px;
+}
+
+.small-transparent-circle-2 {
+  position: absolute;
+  top: 650px;
+  left: 1030px;
+}
+
+.big-transparent-circle-1, .big-transparent-circle-2 {
+  width: 160px;
+  height: 160px;
+  border: 2px solid #151515;
+  border-radius: 50%;
+}
+
+.big-transparent-circle-1 {
+  position: absolute;
+  top: 130px;
+  left: 830px;
+}
+
+.big-transparent-circle-2 {
+  position: absolute;
+  top: 610px;
+  left: 1150px;
+}
+
+.big-black-circle {
+  background-color: #151515;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: absolute;
+  top: 290px;
+  left: 830px;
+}
+
+.small-black-circle-1, .small-black-circle-2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.small-black-circle-1 {
+  background-color: transparent;
+  border: 2px solid #FAFAFA;
+  position: absolute;
+  top: 330px;
+  left: 870px;
+}
+.small-black-circle-2 {
+  background-color: #151515;
+  border: 2px solid #151515;
+  position: absolute;
+  top: 650px;
+  left: 1190px;
+}
+
+.vertical-line {
+  width: 81px;
+  border: 1px solid #151515;
+  position: absolute;
+  top: 689.5px;
+  left: 1070px;
+}
+
+.bubble-img {
+  background-size: cover;
+  height: 320px;
+  width: 320px;
+  border-top-right-radius: 160px;
+  border-top-left-radius: 160px;
+  border-bottom-left-radius: 160px;
+  position: absolute;
+  top: 290px;
+  left: 990px;
+}
+
+.purple-square {
+  height: 80px;
+  width: 80px;
+  background-color: #726CEE;
+  position: absolute;
+  top: 690px;
+  left: 910px;
+
+}
+
+.purple-triangle {
+  height: 160px;
+  width: 160px;
+  border-top: 160px solid #8E4CB6;
+  border-right: 160px solid transparent;
+  position: absolute;
+  top: 610px;
+  left: 830px;
+}
+
+.yellow-square {
+  height: 80px;
+  width: 80px;
+  background-color: #EDD556;
+  position: absolute;
+  top: 530px;
+  left: 830px;
+
+}
