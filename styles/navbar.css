@@ -1,0 +1,53 @@
+nav {
+  font-family: 'Epilogue', sans-serif;
+}
+.navbar-brand {
+  font-weight: 600;
+  padding: 0 20px;
+  color: #151515;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: #686868;
+}
+
+.nav-link:hover {
+  color: #151515;
+}
+
+.dropdown-menu.show {
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dropdown-item {
+  font-size: 14px;
+  color: #686868;
+  padding-right: 0;
+}
+
+.fa-solid {
+  padding-right: 16px;
+}
+
+.fa-clipboard-list {
+  color: #726CEE;
+}
+
+.fa-calendar {
+  color: #4BB1DA;
+}
+
+.fa-bell {
+  color: #EDD556;
+}
+
+.fa-clock {
+  color: #8E4CB6;
+}
+
+.register {
+  border: 1px solid #686868;
+  border-radius: 14px;
+}
