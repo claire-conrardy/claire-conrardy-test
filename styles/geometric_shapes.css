@@ -1,26 +1,15 @@
-.two-circles {
-  position: absolute;
-  top: 130px;
+.two-circles, .black-oval, .purple-triangle, .blue-triangle, .yellow-square {
   left: 830px;
 }
 
-.demi-circle {
+.two-circles {
   position: absolute;
   top: 130px;
-  left: 990px;
-}
-
-.vertical-line {
-  position: absolute;
-  top: 210.5px;
-  left: 910px;
-  z-index: 0;
 }
 
 .black-oval {
   position: absolute;
   top: 290px;
-  left: 830px;
 }
 
 .white-border-oval {
@@ -30,22 +19,16 @@
   z-index: 1;
 }
 
-.blue-triangle {
+.vertical-line {
   position: absolute;
-  top: 450px;
-  left: 830px;
-}
-
-.yellow-square {
-  position: absolute;
-  top: 530px;
-  left: 830px;
+  top: 210.5px;
+  left: 910px;
+  z-index: 0;
 }
 
 .purple-triangle {
   position: absolute;
   top: 610px;
-  left: 830px;
 }
 
 .purple-square {
@@ -90,14 +73,38 @@
   left: 1070px;
 }
 
+.demi-circle {
+  position: absolute;
+  top: 130px;
+  left: 990px;
+}
+
+.blue-triangle {
+  position: absolute;
+  top: 450px;
+}
+
+.yellow-square {
+  position: absolute;
+  top: 530px;
+}
+
 @media(max-width:375px) {
+
+  .two-circles, .black-oval, .purple-triangle, .big-white-circle {
+    width: 93.75px;
+    height: 93.75px;
+  }
+
+  .white-border-oval, .yellow-square, .purple-square, .small-black-circle, .small-white-circle {
+    width: 46.88px;
+    height: 46.88px;
+  }
 
   .two-circles {
     position: absolute;
     top: 75px;
     left: 0.59px;
-    width: 93.75px;
-    height: 93.75px;
   }
 
   .demi-circle {
@@ -122,8 +129,6 @@
     position: absolute;
     top: 168.75px;
     left: 0;
-    width: 93.75px;
-    height: 93.75px;
   }
 
   .white-border-oval {
@@ -131,40 +136,30 @@
     top: 192.19px;
     left: 23.44px;
     z-index: 1;
-    width: 46.88px;
-    height: 46.88px;
   }
 
   .blue-triangle {
     position: absolute;
     top: 262.5px;
     left: 281.25px;
-    height: 100px;
-    width: 100px;
   }
 
   .yellow-square {
     position: absolute;
     top: 309.38px;
     left: 281.25px;
-    height: 46.88px;
-    width: 46.88px;
   }
 
   .purple-triangle {
     position: absolute;
     top: 262.5px;
     left: 0;
-    height: 93.75px;
-    width: 93.75px;
   }
 
   .purple-square {
     position: absolute;
     top: 309.38px;
     left: 47.46px;
-    height: 46.88px;
-    width: 46.88px;
   }
 
   .image {
@@ -187,24 +182,18 @@
     position: absolute;
     top: 285.94px;
     left: 117.19px;
-    width: 46.88px;
-    height: 46.88px;
   }
 
   .small-black-circle {
     position: absolute;
     top: 285.94px;
     left: 210.94px;
-    width: 46.88px;
-    height: 46.88px;
   }
 
   .big-white-circle {
     position: absolute;
     top: 262.5px;
     left: 187.5px;
-    width: 93.75px;
-    height: 93.75px;
   }
 
   .horizontal-line {
@@ -215,5 +204,4 @@
     height: 1.17px;
     border: 1px solid #151515;
   }
-
 }
