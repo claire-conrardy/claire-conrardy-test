@@ -89,3 +89,113 @@
   top: 689.5px;
   left: 1070px;
 }
+
+@media(max-width:500px) {
+
+  .two-circles {
+    position: absolute;
+    top: 75px;
+    left: 0.59px;
+    width: 93.75px;
+    height: 93.75px;
+  }
+
+  .demi-circle {
+    position: absolute;
+    top: 125px;
+    left: 338px;
+    width: 187.5px;
+    height: 93.75px;
+    transform: rotate(90deg);
+  }
+
+  .vertical-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .black-oval {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 93.75px;
+    height: 93.75px;
+  }
+
+  .white-border-oval {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 46.88px;
+    height: 46.88px;
+  }
+
+  .blue-triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 93.75px;
+    width: 93.75px;
+  }
+
+  .yellow-square {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .purple-triangle {
+    position: absolute;
+    top: 0;
+    height: 93.75px;
+    width: 93.75px;
+  }
+
+  .purple-square {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .image {
+    position: absolute;
+    top: 75px;
+    left: 93.75px;
+    width: 187.5px;
+    height: 187.5px;
+  }
+
+  .pill {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .small-white-circle {
+    position: absolute;
+    top: 650px;
+    left: 1030px;
+  }
+
+  .small-black-circle {
+    position: absolute;
+    top: 650px;
+    left: 1190px;
+  }
+
+  .big-white-circle {
+    position: absolute;
+    top: 610px;
+    left: 1150px;
+  }
+
+  .horizontal-line {
+    position: absolute;
+    top: 689.5px;
+    left: 1070px;
+  }
+
+}

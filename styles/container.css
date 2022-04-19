@@ -15,3 +15,20 @@
   width: 480px;
   height: 640px;
 }
+
+@media(max-width:600px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .right-content {
+    position: relative;
+    width: 500px;
+    height: 281px;
+  }
+
+  .left-content {
+    margin: 0;
+  }
+}

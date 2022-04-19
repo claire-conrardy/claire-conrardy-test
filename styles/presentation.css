@@ -37,3 +37,26 @@
   background-color: #FAFAFA;
   color: #151515;
 }
+
+@media(max-width:600px) {
+  .title {
+    font-size: 48px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .presentation-text {
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .black-btn {
+    display: block;
+    margin: 40px auto;
+  }
+
+  .partners-names {
+    justify-content: space-around;
+  }
+}
