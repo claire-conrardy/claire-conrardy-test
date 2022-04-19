@@ -38,25 +38,31 @@
   color: #151515;
 }
 
-@media(max-width:600px) {
+@media(max-width:375px) {
+  .title, .presentation-text {
+    width: 343px;
+  }
+
   .title {
-    font-size: 48px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 32px;
     line-height: 42px;
     text-align: center;
   }
 
   .presentation-text {
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
-    margin: auto;
   }
 
   .black-btn {
     display: block;
-    margin: 40px auto;
+    margin: 40px 103px;
   }
 
   .partners-names {
-    justify-content: space-around;
+    margin-top: 60px;
+    padding-right: 20px;
   }
 }

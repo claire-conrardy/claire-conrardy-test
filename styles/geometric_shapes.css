@@ -90,7 +90,7 @@
   left: 1070px;
 }
 
-@media(max-width:500px) {
+@media(max-width:375px) {
 
   .two-circles {
     position: absolute;
@@ -102,8 +102,8 @@
 
   .demi-circle {
     position: absolute;
-    top: 125px;
-    left: 338px;
+    top: 122px;
+    left: 234px;
     width: 187.5px;
     height: 93.75px;
     transform: rotate(90deg);
@@ -111,14 +111,16 @@
 
   .vertical-line {
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
+    top: 122.17px;
+    left: 47.46px;
+    width: 0.59px;
+    height: 46.88px;
+    border: 1px solid #151515;
   }
 
   .black-oval {
     position: absolute;
-    top: 0;
+    top: 168.75px;
     left: 0;
     width: 93.75px;
     height: 93.75px;
@@ -126,8 +128,8 @@
 
   .white-border-oval {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 192.19px;
+    left: 23.44px;
     z-index: 1;
     width: 46.88px;
     height: 46.88px;
@@ -135,29 +137,34 @@
 
   .blue-triangle {
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 93.75px;
-    width: 93.75px;
+    top: 262.5px;
+    left: 281.25px;
+    height: 100px;
+    width: 100px;
   }
 
   .yellow-square {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 309.38px;
+    left: 281.25px;
+    height: 46.88px;
+    width: 46.88px;
   }
 
   .purple-triangle {
     position: absolute;
-    top: 0;
+    top: 262.5px;
+    left: 0;
     height: 93.75px;
     width: 93.75px;
   }
 
   .purple-square {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 309.38px;
+    left: 47.46px;
+    height: 46.88px;
+    width: 46.88px;
   }
 
   .image {
@@ -170,32 +177,43 @@
 
   .pill {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 262.5px;
+    left: 93.75px;
+    width: 187.5px;
+    height: 93.75px;
   }
 
   .small-white-circle {
     position: absolute;
-    top: 650px;
-    left: 1030px;
+    top: 285.94px;
+    left: 117.19px;
+    width: 46.88px;
+    height: 46.88px;
   }
 
   .small-black-circle {
     position: absolute;
-    top: 650px;
-    left: 1190px;
+    top: 285.94px;
+    left: 210.94px;
+    width: 46.88px;
+    height: 46.88px;
   }
 
   .big-white-circle {
     position: absolute;
-    top: 610px;
-    left: 1150px;
+    top: 262.5px;
+    left: 187.5px;
+    width: 93.75px;
+    height: 93.75px;
   }
 
   .horizontal-line {
     position: absolute;
-    top: 689.5px;
-    left: 1070px;
+    top: 309.08px;
+    left: 140.62px;
+    width: 47.46px;
+    height: 1.17px;
+    border: 1px solid #151515;
   }
 
 }

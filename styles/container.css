@@ -16,19 +16,23 @@
   height: 640px;
 }
 
-@media(max-width:600px) {
+@media(max-width:375px) {
   .container {
     display: flex;
     flex-direction: column-reverse;
   }
 
-  .right-content {
-    position: relative;
-    width: 500px;
-    height: 281px;
+  .left-content {
+    margin: 0 auto;
+    width: 375px;
+    height: 208px;
+
   }
 
-  .left-content {
-    margin: 0;
+  .right-content {
+    width: 375px;
+    height: 281.25px;
   }
+
+
 }
