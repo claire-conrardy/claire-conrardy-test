@@ -13,7 +13,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: #151515;
+  color: #151515 !important;
 }
 
 .dropdown-menu.show {
@@ -27,24 +27,8 @@ nav {
   padding-right: 0;
 }
 
-.fa-solid {
+.dropdown-icon {
   padding-right: 16px;
-}
-
-.fa-clipboard-list {
-  color: #726CEE;
-}
-
-.fa-calendar {
-  color: #4BB1DA;
-}
-
-.fa-bell {
-  color: #EDD556;
-}
-
-.fa-clock {
-  color: #8E4CB6;
 }
 
 .register {

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  margin: 136px 40px;
+  width: 540px;
+  height: 544px;
+}
+
+.right-content {
+  /* position: relative; */
+  width: 480px;
+  height: 640px;
+}

@@ -1,0 +1,91 @@
+.two-circles {
+  position: absolute;
+  top: 130px;
+  left: 830px;
+}
+
+.demi-circle {
+  position: absolute;
+  top: 130px;
+  left: 990px;
+}
+
+.vertical-line {
+  position: absolute;
+  top: 210.5px;
+  left: 910px;
+  z-index: 0;
+}
+
+.black-oval {
+  position: absolute;
+  top: 290px;
+  left: 830px;
+}
+
+.white-border-oval {
+  position: absolute;
+  top: 330px;
+  left: 870px;
+  z-index: 1;
+}
+
+.blue-triangle {
+  position: absolute;
+  top: 450px;
+  left: 830px;
+}
+
+.yellow-square {
+  position: absolute;
+  top: 530px;
+  left: 830px;
+}
+
+.purple-triangle {
+  position: absolute;
+  top: 610px;
+  left: 830px;
+}
+
+.purple-square {
+  position: absolute;
+  top: 690px;
+  left: 910px;
+}
+
+.image {
+  position: absolute;
+  top: 290px;
+  left: 990px;
+}
+
+.pill {
+  position: absolute;
+  top: 610px;
+  left: 990px;
+}
+
+.small-white-circle {
+  position: absolute;
+  top: 650px;
+  left: 1030px;
+}
+
+.small-black-circle {
+  position: absolute;
+  top: 650px;
+  left: 1190px;
+}
+
+.big-white-circle {
+  position: absolute;
+  top: 610px;
+  left: 1150px;
+}
+
+.horizontal-line {
+  position: absolute;
+  top: 689.5px;
+  left: 1070px;
+}
